@@ -89,7 +89,7 @@
     transition: all 0.5s;
 }
 
-.pagination__item a{
+.pagination__item span{
     text-decoration: none;
     color: var(--color-gray-light-1);
 }
@@ -100,3 +100,23 @@
 }
 
 /* Pagination */
+
+
+
+/* search-error */
+.search-error{
+    text-align: center;
+    background: #cf3d60d9;
+    color: #fff;
+    margin: 0 10rem;
+    padding: 5rem;
+    border-radius: 5px;
+    font-size: 21px;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .search-error {
+        font-size: 2rem;
+        margin: 0;
+    }
+}
